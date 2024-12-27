@@ -1,0 +1,75 @@
+
+
+body {
+    background: linear-gradient(to right, #a6c1f2, #d6a4e3);
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Style de la carte quiz */
+#quiz-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 2rem;
+    
+}
+
+h1 {
+    font-size: 2rem;
+    color: #0072ff;
+    font-weight: 600;
+}
+
+
+.btn-primary {
+    background-color: #0072ff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #005bb5;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-outline-primary {
+    background-color: #f0f8ff;
+    border: 2px solid #0072ff;
+    color: #0072ff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0072ff;
+    color: white;
+}
+
+.btn-group-vertical button {
+    margin-bottom: 1rem;
+}
+
+
+#score-display {
+    font-size: 1.2rem;
+    color: #0072ff;
+}
+
+#message {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
